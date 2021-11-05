@@ -455,7 +455,7 @@
   #elif HAS_DRIVER(LV8729)
     #define MINIMUM_STEPPER_PULSE 0
   #elif HAS_DRIVER(TMC2100)
-    #define MINIMUM_STEPPER_PULSE 1
+    #define MINIMUM_STEPPER_PULSE 0
   #else
     #define MINIMUM_STEPPER_PULSE 2
   #endif
